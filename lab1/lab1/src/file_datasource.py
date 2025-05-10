@@ -62,7 +62,7 @@ class FileDatasource:
         return AggregatedData(
             accelerometer=accel,
             gps=gps,
-            time=datetime.utcnow()
+            timestamp=datetime.utcnow()
         )
 
     def stopReading(self, *args, **kwargs):

@@ -7,4 +7,4 @@ from src.domain.gps import Gps
 class AggregatedData:
     accelerometer: Accelerometer
     gps: Gps
-    time: datetime
+    timestamp: datetime
