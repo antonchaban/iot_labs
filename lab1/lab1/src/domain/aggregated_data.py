@@ -8,3 +8,4 @@ class AggregatedData:
     accelerometer: Accelerometer
     gps: Gps
     timestamp: datetime
+    user_id: int

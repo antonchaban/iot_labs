@@ -8,3 +8,4 @@ class AggregatedDataSchema(Schema):
     accelerometer = fields.Nested(AccelerometerSchema)
     gps = fields.Nested(GpsSchema)
     timestamp = fields.DateTime('iso')
+    user_id = fields.Int()
